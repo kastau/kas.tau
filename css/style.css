@@ -3,11 +3,43 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+
 footer {
     margin-top: 3%;
 }
 
-i {
-    font-size: 35px;
-    margin-right: 30px;
+@media only screen and (min-width: 1200px) {    
+    i {
+        font-size: 35px;
+        margin-right: 30px;
+    }
+
+    footer {
+        margin-top: 3%;
+    }
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .button-link {
+        padding: 0 15px 0 15px;
+    }
+
+    i {
+        font-size: 25px;
+        margin-right: 30px;
+    }
+    
+    .instagram-icon {
+        padding-left: 10px;
+    }
+
+    footer {
+        margin-top: 5%;
+    }
+
+
+
+}
+  
